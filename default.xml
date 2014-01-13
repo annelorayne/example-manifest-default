@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="annelorayne"
+           fetch="git://github.com/annelorayne/"
+           review="master" />
+  <default revision="master" remote="annelorayne" />
+
+  <project path="jenkins-exemplo" name="jenkins-exemplo"
+           revision="master" />
+  <project path="test" name="test"
+           revision="master" />
+</manifest>
